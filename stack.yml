@@ -1,7 +1,11 @@
-version: '1.0'
+version: '3.1'
 
 services:
+
+  elasticsearch:
+    image: elasticsearch
+
   kibana:
-    image: jenkins
+    image: kibana
     ports:
-      - 8080:8080
+      - 5601:5601
