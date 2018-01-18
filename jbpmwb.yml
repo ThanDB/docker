@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+
+  jbpm-workbench:
+    image: jboss/jbpm-workbench-showcase
+    ports:
+      - 8080:8080
+      - 8001:8001
