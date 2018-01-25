@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+
+  drools-workbench:
+    image: jboss/drools-workbench:7.5.0.Final
+    ports:
+      - 8080:8080
+      - 8001:8001
