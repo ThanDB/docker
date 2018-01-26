@@ -1,0 +1,8 @@
+version: '3.3'
+
+services:
+
+  kie-server:
+    image: jboss/kie-server-showcase
+    ports:
+      - 8180:8080
